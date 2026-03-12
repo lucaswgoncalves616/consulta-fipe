@@ -14,6 +14,7 @@ Decidimos desenvolver uma simples tela simples usando a [FIPE API](https://deivi
 Explicando cada função do Javascript:
 
 1. Inicialização
+
 Assim que a janela é carregada (window.onload), a função busca as marcas disponíveis para preencher o primeiro menu de seleção.
 
 ```javascript
@@ -25,6 +26,7 @@ window.onload = async function() {
 ```
 
 2. Busca de Modelos
+
 Quando o usuário foca no campo de Modelos, o script identifica qual marca foi selecionada, recupera seu código único e busca os modelos correspondentes.
 ```javascript
    selectElementModel.addEventListener('focus', async () => {
@@ -35,6 +37,7 @@ Quando o usuário foca no campo de Modelos, o script identifica qual marca foi s
 ```
 
 3. Busca de Anos e Combustível
+
 Ao focar no campo de Anos, o sistema utiliza o código da marca e o código do modelo selecionado para filtrar os anos de fabricação e tipos de combustível disponíveis.
 ```javascript
 selectElementYear.addEventListener('focus', async () => {
