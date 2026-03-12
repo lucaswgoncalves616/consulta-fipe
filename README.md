@@ -11,7 +11,7 @@ Decidimos desenvolver uma simples tela simples usando a [FIPE API](https://deivi
 
 ## Aprofundando no JavaScript
 
-Explciando cada função do Javascript:
+Expliciando cada função do Javascript:
 
 1. Inicialização
 Assim que a janela é carregada (window.onload), a função busca as marcas disponíveis para preencher o primeiro menu de seleção.
