@@ -54,6 +54,8 @@ selectElementModel.addEventListener('focus', async() => {
 
             modelsData = data.modelos;
 
+            selectElementModel.innerHTML = '';
+
             const fragment = document.createDocumentFragment();
 
             modelsData.forEach(model => {
@@ -92,6 +94,8 @@ selectElementYear.addEventListener('focus', async () => {
             }
             yearData = await response.json();
 
+            selectElementYear.innerHTML = '';
+
             const fragment = document.createDocumentFragment();
 
             yearData.forEach(year => {
@@ -109,7 +113,7 @@ selectElementYear.addEventListener('focus', async () => {
     } else {
         console.log("N encontrei o ano chefe");
     }
-})
+});
 
 async function showVehicle() {
     const selectedValue = selectElementYear.value;

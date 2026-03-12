@@ -1,4 +1,4 @@
-function openCity(evt, vehicleType) {
+function openTab(evt, vehicleType) {
     let i, tabContent, tabLinks;
 
     tabContent = document.getElementsByClassName("tabContent");
