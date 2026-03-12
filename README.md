@@ -2,7 +2,7 @@
 
 A Tabela FIPE expressa preços médios para pagamento à vista, praticados na revenda de veículos para o consumidor final, pessoa física, no mercado nacional, servindo apenas como um parâmetro para negociações ou avaliações. 
 
-Decidimos desenvolver uma simples tela simples usando a [FIPE API](https://deividfortuna.github.io/fipe/v2/), onde você consegue filtrar por um carro especifico e ver o seus dados conforme com o mercado atual.
+Decidimos desenvolver uma simples tela simples usando a [FIPE API](https://deividfortuna.github.io/fipe/), onde você consegue filtrar por um carro especifico e ver o seus dados conforme com o mercado atual.
 
 ## Tecnologias usadas
 - HTML - Estruturação dos elementos da página.
