@@ -17,25 +17,22 @@
         </div>
 
         <div id="cars" class="tabContent">
-            <label for="vehicleBrand">Marca do veiculo:</label> <br>
-            <select name="vehicleBrand" id="vehicleBrand" onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=1;'>
-                <option value="Ford">Ford</option>
-                <option value="Volkswagen">Volkswagen</option>
-                <option value="Renault">Renault</option>
-                <option value="Peugeot">Peugeot</option>
-                <option value="Fiat">Fiat</option>
-                <option value="Hyundai">Hyundai</option>
-                <option value="BMW">BMW</option>
-                <option value="Porsche">Porsche</option>
-                <option value="Ferrari">Ferrari</option>
-                <option value="Honda">Honda</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Subaru">Subaru</option>
-                <option value="Nissan">Nissan</option>
-                <option value="Chevrolet">Chevrolet</option>
-            </select>
-            <br>
-            <button class="btnSearch">Consultar</button>
+            <label for="selectBrand">Selecione a marca</label> <br>
+            <select name="" id="selectBrand">
+                <option value="" selected disabled hidden>Marca</option>
+            </select> <br>
+            <label for="selectModel">Selecione o modelo</label> <br>
+            <select name="" id="selectModel">
+
+            </select> <br>
+            <label for="selectYear">Selecione o ano</label> <br>
+            <select name="" id="selectYear">
+
+            </select> <br>
+            <div id="vehicleResult">
+
+            </div>
+            <button onclick="showVehicle()" class="btnSearch">Consultar</button>
         </div>
 
         <div id="trucks" class="tabContent">
